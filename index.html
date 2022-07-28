@@ -7,10 +7,113 @@
     <title>edX Learning</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!------------ css link  ----------------->
+    <link rel="stylesheet" href="style/styles.css">
 </head>
 
 <body>
-    <h1>Hello, world!</h1>
+    <header>
+        <!--------------------- navbar start ----------------------------->
+        <section class="container">
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img class="w-25" src="images/download.png" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Course</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Programs & Degrees</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">School & Partner</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Success</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">About</a>
+                            </li>
+
+                        </ul>
+
+                        <button type="button" class="btn btn-outline-primary">Register</button>
+
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <!---------------------- navbar end ------------------------------->
+
+        <!------------------------- Slider page start ------------------------------->
+        <section class="container">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/cover/cover-1.png" class="d-block w-100 darkness" alt="...">
+                        <div
+                            class="carousel-caption  d-flex flex-column justify-content-center align-items-center h-100 ">
+                            <h1>Start learning from</h1>
+                            <h1 class="text-danger">the world’s best institutions</h1>
+                            <h1 class="text-white">425,188 <small>people are learning on edX today</small></h1>
+                            <button class="btn btn-primary w-fluid" type="submit">Get Started</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/cover/cover-2.jpg" class="d-block w-100 darkness" alt="...">
+                        <div
+                            class="carousel-caption  d-flex flex-column justify-content-center align-items-center h-100 ">
+                            <h1>Start learning from</h1>
+                            <h1 class="text-danger">the world’s best institutions</h1>
+                            <h1 class="text-white">425,188 <small>people are learning on edX today</small></h1>
+                            <button class="btn btn-primary w-fluid" type="submit">Get Started</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/cover/cover-3.jpg" class="d-block w-100 darkness" alt="...">
+                        <div
+                            class="carousel-caption  d-flex flex-column justify-content-center align-items-center h-100 ">
+                            <h1>Start learning from</h1>
+                            <h1 class="text-danger">the world’s best institutions</h1>
+                            <h1 class="text-white">425,188 <small>people are learning on edX today</small></h1>
+                            <button class="btn btn-primary w-fluid" type="submit">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <!------------------------- Slider page end ---------------------------------->
+
+    </header>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
