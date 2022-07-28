@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@1,400;1,500&display=swap');
 
-body {
+header .student .company .success .question {
     font-family: 'Bebas Neue', cursive;
     font-family: 'Poppins', sans-serif;
 
+}
+
+footer {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Poppins', sans-serif;
 }
 
 .darkness {
@@ -30,4 +36,8 @@ body {
 .bg-dark-finish {
     background-color: black;
     height: 300px;
+}
+
+.link {
+    font-size: 30px;
 }
