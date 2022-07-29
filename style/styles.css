@@ -16,14 +16,12 @@ footer {
     filter: brightness(50%);
 }
 
-
-
 .register-btn-bg {
     text-decoration: none;
     background-color: aliceblue;
     padding: 10px 30px;
     border-radius: 5px;
-    color: rgb(109, 109, 211);
+    color: rgb(234, 82, 204);
     font-weight: bold;
     margin-top: 100px;
 }
